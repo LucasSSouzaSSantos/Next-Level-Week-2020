@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/LucasSSouzaSSantos/Next-Level-Week-2020/issues"
   },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "homepage": "https://github.com/LucasSSouzaSSantos/Next-Level-Week-2020#readme",
   "devDependencies": {
     "nodemon": "^2.0.4"
