@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/LucasSSouzaSSantos/Next-Level-Week-2020/issues"
   },
-  "homepage": "https://github.com/LucasSSouzaSSantos/Next-Level-Week-2020#readme"
+  "homepage": "https://github.com/LucasSSouzaSSantos/Next-Level-Week-2020#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
