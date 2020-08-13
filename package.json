@@ -17,7 +17,8 @@
     "url": "https://github.com/LucasSSouzaSSantos/Next-Level-Week-2020/issues"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
   },
   "homepage": "https://github.com/LucasSSouzaSSantos/Next-Level-Week-2020#readme",
   "devDependencies": {
