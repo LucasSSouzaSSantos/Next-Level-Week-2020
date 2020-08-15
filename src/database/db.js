@@ -19,11 +19,11 @@ function execute(db) {
         );
         
         CREATE TABLE IF NOT EXISTS classes_schedule(
-            id INTEGER PRAMARY KEY AUTOINCREMENT,
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
             class_id INTEGER,
             weekday INTEGER,
             time_from INTEGER,
             time_to INTEGER
-        ) 
+        );
     `)
 }
