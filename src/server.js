@@ -1,12 +1,3 @@
-const subjects = [
-  "Artes", "Biologia", "Ciências", "Educação física", "Física", "Geografia", "História", "Matemática",
-  "Português", "Química",
-]
-
-const weekdays = [
-  "Domingo", "Seguda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado",
-]
-
 function getSubject(subjectNumber) {
   const position = +subjectNumber - 1
   return subjects[position]  
@@ -32,6 +23,8 @@ function pageGiveClasses(req, res) {
 
 const express = require('express')
 const server = express()
+
+
 const nunjucks = require('nunjucks')
 
 // configurar nunjucks
