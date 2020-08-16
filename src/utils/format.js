@@ -6,3 +6,15 @@ const subjects = [
 const weekdays = [
     "Domingo", "Seguda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado",
 ]
+function getSubject(subjectNumber) {
+  const position = +subjectNumber - 1
+  return subjects[position]  
+}
+
+function  convertHoursToMinu(time) {
+    
+}
+
+module.exports = {
+    subjects, weekdays, getSubject
+}
